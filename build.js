@@ -126,7 +126,7 @@ var User = function (_React$Component3) {
     value: function render() {
       return React.createElement(
         "div",
-        { "class": "user-list" },
+        { className: "user-list" },
         React.createElement("img", { src: this.props.user.avatar_url, style: { maxWidth: '100px' } }),
         React.createElement(
           "a",
